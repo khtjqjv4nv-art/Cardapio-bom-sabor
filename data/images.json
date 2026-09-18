@@ -19,5 +19,45 @@
     "id": "marmita-quadrada",
     "source": "marmita-quadrada-original.jpeg",
     "kind": "photo"
+  },
+  {
+    "id": "escondidinho-carne-seca",
+    "source": "escondidinho-carne-seca-original.jpg",
+    "kind": "photo"
+  },
+  {
+    "id": "file-frango-milanesa",
+    "source": "file-frango-milanesa-original.jpg",
+    "kind": "photo"
+  },
+  {
+    "id": "figado-acebolado",
+    "source": "figado-acebolado-original.jpeg",
+    "kind": "photo"
+  },
+  {
+    "id": "lasanha-bolonhesa",
+    "source": "lasanha-bolonhesa-original.avif",
+    "kind": "photo"
+  },
+  {
+    "id": "file-frango-grelhado",
+    "source": "file-frango-grelhado-original.jpeg",
+    "kind": "photo"
+  },
+  {
+    "id": "linguica-frango",
+    "source": "linguica-frango-original.jpeg",
+    "kind": "photo"
+  },
+  {
+    "id": "churrasco",
+    "source": "churrasco-original.jpeg",
+    "kind": "photo"
+  },
+  {
+    "id": "rocambole-vegetariano",
+    "source": "rocambole-vegetariano-original.jpeg",
+    "kind": "photo"
   }
 ]

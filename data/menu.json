@@ -39,50 +39,50 @@
     {
       "id": "escondidinho-carne-seca",
       "name": "Escondidinho de carne seca",
-      "image": null,
-      "imageAlt": null
+      "image": "escondidinho-carne-seca",
+      "imageAlt": "Escondidinho na foto fornecida para o cardápio"
     },
     {
       "id": "file-frango-milanesa",
       "name": "Filé de frango à milanesa",
-      "image": null,
-      "imageAlt": null
+      "image": "file-frango-milanesa",
+      "imageAlt": "Filé de frango à milanesa na foto fornecida para o cardápio"
     },
     {
       "id": "figado-acebolado",
       "name": "Fígado acebolado",
-      "image": null,
-      "imageAlt": null
+      "image": "figado-acebolado",
+      "imageAlt": "Fígado acebolado na foto fornecida para o cardápio"
     },
     {
       "id": "lasanha-bolonhesa",
       "name": "Lasanha à bolonhesa",
-      "image": null,
-      "imageAlt": null
+      "image": "lasanha-bolonhesa",
+      "imageAlt": "Lasanha à bolonhesa na foto fornecida para o cardápio"
     },
     {
       "id": "file-frango-grelhado",
       "name": "Filé de frango grelhado",
-      "image": null,
-      "imageAlt": null
+      "image": "file-frango-grelhado",
+      "imageAlt": "Filé de frango grelhado na foto fornecida para o cardápio"
     },
     {
       "id": "linguica-frango",
       "name": "Linguiça de frango",
-      "image": null,
-      "imageAlt": null
+      "image": "linguica-frango",
+      "imageAlt": "Linguiça de frango na foto fornecida para o cardápio"
     },
     {
       "id": "churrasco",
       "name": "Churrasco",
-      "image": null,
-      "imageAlt": null
+      "image": "churrasco",
+      "imageAlt": "Churrasco na foto fornecida para o cardápio"
     },
     {
       "id": "rocambole-vegetariano",
       "name": "Rocambole vegetariano",
-      "image": null,
-      "imageAlt": null
+      "image": "rocambole-vegetariano",
+      "imageAlt": "Rocambole vegetariano na foto fornecida para o cardápio"
     }
   ],
   "sides": [
