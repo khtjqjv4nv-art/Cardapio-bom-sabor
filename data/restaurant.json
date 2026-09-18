@@ -1,0 +1,21 @@
+{
+  "name": "Restaurante Bom Sabor",
+  "locale": "pt-BR",
+  "currency": "BRL",
+  "logo": "logo-bom-sabor",
+  "delivery": {
+    "phoneDisplay": "(61) 99548-3861",
+    "phone": "+5561995483861",
+    "priceNote": "+ taxa de entrega"
+  },
+  "additionalInformation": [],
+  "brand": {
+    "colors": {
+      "background": "#FFBF5D",
+      "text": "#5A2530",
+      "accent": "#DC79AC",
+      "surface": "#FFFFFF"
+    },
+    "fonts": null
+  }
+}

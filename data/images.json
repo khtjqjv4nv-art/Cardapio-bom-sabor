@@ -1,0 +1,23 @@
+[
+  {
+    "id": "logo-bom-sabor",
+    "source": "referencia-valores.jpeg",
+    "kind": "logo",
+    "crop": { "left": 47, "top": 62, "width": 216, "height": 235 }
+  },
+  {
+    "id": "marmita-pequena",
+    "source": "marmita-pequena-original.avif",
+    "kind": "photo"
+  },
+  {
+    "id": "marmita-redonda-grande",
+    "source": "marmita-redonda-grande-original.webp",
+    "kind": "photo"
+  },
+  {
+    "id": "marmita-quadrada",
+    "source": "marmita-quadrada-original.jpeg",
+    "kind": "photo"
+  }
+]

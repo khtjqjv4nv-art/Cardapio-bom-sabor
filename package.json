@@ -1,0 +1,19 @@
+{
+  "name": "cardapio-bom-sabor",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "dev": "node scripts/optimize-images.mjs && vite --host 127.0.0.1",
+    "images": "node scripts/optimize-images.mjs",
+    "build": "node scripts/optimize-images.mjs && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "node scripts/check.mjs",
+    "build:release": "node scripts/check.mjs --release && npm run build"
+  },
+  "devDependencies": {
+    "sharp": "0.35.4",
+    "vite": "8.3.0"
+  }
+}

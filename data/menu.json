@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "id": "valores",
+      "name": "Tabela de valores",
+      "navigationLabel": "Valores",
+      "items": [
+        {
+          "id": "marmita-pequena",
+          "name": "Marmita pequena",
+          "description": "Uma opção de carne",
+          "priceInCents": 1800,
+          "image": "marmita-pequena",
+          "imageAlt": "Marmita pequena na foto fornecida pelo restaurante",
+          "additionalInformation": []
+        },
+        {
+          "id": "marmita-redonda-grande",
+          "name": "Marmita redonda grande",
+          "description": "Duas opções de carne",
+          "priceInCents": 2500,
+          "image": "marmita-redonda-grande",
+          "imageAlt": "Marmita redonda grande na foto fornecida pelo restaurante",
+          "additionalInformation": []
+        },
+        {
+          "id": "marmita-quadrada",
+          "name": "Marmita quadrada",
+          "description": "Duas opções de carne",
+          "priceInCents": 2800,
+          "image": "marmita-quadrada",
+          "imageAlt": "Marmita quadrada na foto fornecida pelo restaurante",
+          "additionalInformation": []
+        }
+      ]
+    }
+  ],
+  "dishes": [
+    "Escondidinho de carne seca",
+    "Filé de frango à milanesa",
+    "Fígado acebolado",
+    "Lasanha à bolonhesa",
+    "Filé de frango grelhado",
+    "Linguiça de frango",
+    "Churrasco",
+    "Rocambole vegetariano"
+  ],
+  "sides": [
+    "Arroz",
+    "Feijão carioca",
+    "Macarrão",
+    "Mix Salada",
+    "Farofa",
+    "Batata frita"
+  ]
+}
