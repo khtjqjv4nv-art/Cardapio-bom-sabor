@@ -31,6 +31,13 @@ A versão pronta para hospedagem será criada em `dist/`.
 
 O comando de build converte as imagens usadas para WebP, cria tamanhos adequados para celular e mantém os originais separados. Para adicionar uma foto, coloque o original em `assets/originals/` e cadastre-o em `data/images.json`.
 
+Cada prato em `data/menu.json` possui seu próprio `id`, `image` e `imageAlt`. Enquanto `image` estiver como `null`, o cardápio mostra o espaço reservado “Foto em breve”. Para inserir uma foto real:
+
+1. coloque o arquivo original em `assets/originals/`;
+2. cadastre o arquivo em `data/images.json` usando o mesmo identificador do prato;
+3. substitua `null` em `image` pelo identificador e preencha `imageAlt`;
+4. execute `npm run build` para gerar as versões WebP.
+
 ## Informação pendente
 
 A fonte oficial ainda precisa ser informada pelo restaurante. Até essa definição, o site usa a fonte padrão do aparelho.

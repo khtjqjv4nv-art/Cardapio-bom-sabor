@@ -36,14 +36,54 @@
     }
   ],
   "dishes": [
-    "Escondidinho de carne seca",
-    "Filé de frango à milanesa",
-    "Fígado acebolado",
-    "Lasanha à bolonhesa",
-    "Filé de frango grelhado",
-    "Linguiça de frango",
-    "Churrasco",
-    "Rocambole vegetariano"
+    {
+      "id": "escondidinho-carne-seca",
+      "name": "Escondidinho de carne seca",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "file-frango-milanesa",
+      "name": "Filé de frango à milanesa",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "figado-acebolado",
+      "name": "Fígado acebolado",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "lasanha-bolonhesa",
+      "name": "Lasanha à bolonhesa",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "file-frango-grelhado",
+      "name": "Filé de frango grelhado",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "linguica-frango",
+      "name": "Linguiça de frango",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "churrasco",
+      "name": "Churrasco",
+      "image": null,
+      "imageAlt": null
+    },
+    {
+      "id": "rocambole-vegetariano",
+      "name": "Rocambole vegetariano",
+      "image": null,
+      "imageAlt": null
+    }
   ],
   "sides": [
     "Arroz",

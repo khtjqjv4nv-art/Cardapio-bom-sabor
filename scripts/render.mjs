@@ -30,6 +30,14 @@ export async function renderMenu() {
     </article>`).join('')}</div>
   </section>`).join('');
   const list = (items, className) => `<ul class="${className}">${items.map((item) => `<li>${e(item)}</li>`).join('')}</ul>`;
+  const dishCards = menu.dishes.map((dish) => `<article class="dish-card" aria-labelledby="dish-${e(dish.id)}">
+    <div class="dish-card-image">
+      ${dish.image
+        ? image(dish.image, dish.imageAlt, 'dish-card-photo')
+        : `<div class="dish-photo-placeholder" role="img" aria-label="Espaço reservado para a foto de ${e(dish.name)}"><span>Foto em breve</span></div>`}
+    </div>
+    <h3 id="dish-${e(dish.id)}">${e(dish.name)}</h3>
+  </article>`).join('');
   const fonts = restaurant.brand.fonts;
   const brandStyle = `:root{--color-background:${restaurant.brand.colors.background};--color-text:${restaurant.brand.colors.text};--color-accent:${restaurant.brand.colors.accent};--color-surface:${restaurant.brand.colors.surface};${fonts ? `--font-body:${fonts.body};--font-heading:${fonts.heading};` : ''}}`;
   return {
@@ -49,7 +57,7 @@ export async function renderMenu() {
       <main id="conteudo" class="page" tabindex="-1">
         ${categories}
         <div class="details-grid">
-          ${menu.dishes.length ? `<section class="dishes-section detail-section" id="pratos" aria-labelledby="pratos-title"><div class="section-heading"><h2 id="pratos-title">Pratos</h2></div>${list(menu.dishes, 'dishes-list')}</section>` : ''}
+          ${menu.dishes.length ? `<section class="dishes-section" id="pratos" aria-labelledby="pratos-title"><div class="section-heading"><h2 id="pratos-title">Pratos</h2><span class="heading-rule" aria-hidden="true"></span></div><div class="dish-cards">${dishCards}</div></section>` : ''}
           ${menu.sides.length ? `<section class="sides-section detail-section" id="acompanha" aria-labelledby="acompanha-title"><div class="section-heading"><h2 id="acompanha-title">Acompanha</h2></div>${list(menu.sides, 'sides-list')}</section>` : ''}
         </div>
         ${restaurant.additionalInformation.length ? `<section class="additional-section" aria-label="Informações adicionais">${restaurant.additionalInformation.map((info) => `<p>${e(info)}</p>`).join('')}</section>` : ''}

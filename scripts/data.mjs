@@ -68,8 +68,13 @@ export function validateData(restaurant, menu, images) {
       if (item.image) requireText(item.imageAlt, `${item.id}.imageAlt`);
     }
   }
-  for (const group of ['dishes', 'sides']) {
-    if (!Array.isArray(menu[group])) throw new Error(`${group}: informe uma lista.`);
-    menu[group].forEach((value) => requireText(value, group));
+  if (!Array.isArray(menu.dishes)) throw new Error('dishes: informe uma lista.');
+  for (const dish of menu.dishes) {
+    uniqueId(dish.id);
+    requireText(dish.name, `${dish.id}.name`);
+    if (dish.image && !imageIds.has(dish.image)) throw new Error(`${dish.id}: imagem não cadastrada.`);
+    if (dish.image) requireText(dish.imageAlt, `${dish.id}.imageAlt`);
   }
+  if (!Array.isArray(menu.sides)) throw new Error('sides: informe uma lista.');
+  menu.sides.forEach((value) => requireText(value, 'sides'));
 }
